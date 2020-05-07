@@ -15,11 +15,9 @@
                 <a-asset-item id ="test-protein" src="https://raw.githubusercontent.com/fvvianello/pymol_ar/master/test.gltf"></a-asset-item>
             </a-assets>
 
-            <a-entity
-                    gltf-model="#test-protein"
-                    scale="0.1 0.1 0.1">
-            </a-entity>
-             <a-marker-camera preset='hiro'></a-marker-camera>
+            <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+
+            <a-marker-camera preset='hiro'></a-marker-camera>
         </a-scene>
     </body>
 </html>
