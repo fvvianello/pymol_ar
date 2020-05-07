@@ -15,9 +15,16 @@
                 <a-asset-item id ="test-protein" src="https://raw.githubusercontent.com/fvvianello/pymol_ar/master/test.gltf"></a-asset-item>
             </a-assets>
 
-            <a-entity gltf-model="#test_protein" scale="0.01 0.01 0.01"></a-entity>
+            <a-marker type='barcode' value='7'>
+                <a-box position='0 0.5 0' color="yellow"></a-box>
+            </a-marker>
 
-            <a-marker-camera preset='hiro'></a-marker-camera>
+             <a-marker type='barcode' value='6'>
+                <a-entity gltf-model="#test_protein" scale="0.01 0.01 0.01">
+                </a-entity>
+             </a-marker>
+
+            <a-entity camera></a-entity>
         </a-scene>
     </body>
 </html>
