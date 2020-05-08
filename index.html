@@ -9,9 +9,10 @@
   </head>
   <body >
     <a-scene>
-      <a-entity
-        obj-model="obj: url(https://raw.githubusercontent.com/fvvianello/pymol_ar/master/test_helix.obj);">
-      </a-entity>
+      <a-assets>
+        <a-asset-item id="test_helix" src="https://raw.githubusercontent.com/fvvianello/pymol_ar/master/test_helix.obj"></a-asset-item>
+      </a-assets>
+      <a-obj-model src="#test_helix"></a-obj-model>
     </a-scene>
   </body>
 </html>
