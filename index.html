@@ -6,14 +6,15 @@
     <meta name="description" content="Hello, World! - A-Frame">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
-    <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <!-- script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js" -->
+    <!-- /script -->
   </head>
   <body >
     <a-scene>
       <a-assets>
         <a-asset-item id="test_helix" src="https://raw.githubusercontent.com/fvvianello/pymol_ar/master/test_helix.obj"></a-asset-item>
       </a-assets>
-      <a-obj-model src="#test_helix" scale="0.1 0.1 0.1"></a-obj-model>
+      <a-obj-model src="#test_helix" scale="0.01 0.01 0.01"></a-obj-model>
       <a-sky color="#E0FFFF"></a-sky>
     </a-scene>
   </body>
