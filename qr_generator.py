@@ -15,7 +15,7 @@ img = Image.open('output/test2_qr.png')
 width, height = img.size
 
 # open the logo image
-logo = Image.open('barcodes/06-barcode.png')
+logo = Image.open('barcodes/6-barcode.png')
 
 # place logo
 logo_size = 150
